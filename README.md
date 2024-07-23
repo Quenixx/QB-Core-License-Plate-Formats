@@ -23,6 +23,8 @@ JSU 716
 To change to any format you like, just use this tutorial!
 
 REMEMBER!
+
 RandomStr gives random letters from A-Z
+
 RandomInt gives random letters from 0-9
 and you add brackets at the end and a number if you want several random letters or numbers, for example RandomStr(5) will give us a 5 random letters
