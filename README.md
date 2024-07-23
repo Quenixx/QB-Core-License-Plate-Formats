@@ -7,13 +7,13 @@ the line to change is line 72 which is shown below
 
     local plate = QBCore.Shared.RandomInt(1) .. QBCore.Shared.RandomStr(2) .. QBCore.Shared.RandomInt(3) .. QBCore.Shared.RandomStr(2)
 
-    To understand this format (which is the deafault format ) is that it first created a random integer which is a number between 0-9, the second one is creating two random strings (RandomStr), and so on.
+To understand this format (which is the deafault format ) is that it first created a random integer which is a number between 0-9, the second one is creating two random strings (RandomStr), and so on.
 
 So lets say we wanted to change the license plate formats in our server to be swedish, which is "ABC 123"
 
 we would have to change line 72 to this instead:
 
-local plate = QBCore.Shared.RandomStr(3) .. “ “ .. QBCore.Shared.RandomInt(3)
+    local plate = QBCore.Shared.RandomStr(3) .. “ “ .. QBCore.Shared.RandomInt(3)
 
 this will now give us 3 random Strings (RandomStr(3)) and three random numbers (RandomInt(3))
 
