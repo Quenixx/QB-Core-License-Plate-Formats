@@ -28,3 +28,11 @@ RandomStr gives random letters from A-Z
 
 RandomInt gives random letters from 0-9
 and you add brackets at the end and a number if you want several random letters or numbers, for example RandomStr(5) will give us a 5 random letters
+
+
+ !!!!!!!!!!!!  IMPORTANT !!!!!!!!!!!!
+
+Disable / comment this line otherwise it wont work properly with the garage in  qb-garages/client/main.lua 
+
+
+![image](https://github.com/user-attachments/assets/ea222da9-f1fb-484c-81f0-b1f324b2a9b6)
